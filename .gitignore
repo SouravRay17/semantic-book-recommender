@@ -1,0 +1,11 @@
+# Ignore virtual environment
+env/
+venv/
+
+# Ignore large ML/DL model files
+*.dll
+*.lib
+*.h5
+*.ckpt
+*.pt
+*.onnx
