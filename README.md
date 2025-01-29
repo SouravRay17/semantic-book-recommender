@@ -45,7 +45,7 @@ Make sure you replace `your_openai_api_key_here` with your actual API key.
 
 ## Running the Application
 ```sh
-python app.py
+python gradio-dashboard.py
 ```
 This will launch the **Gradio dashboard** in your browser.
 
@@ -54,7 +54,7 @@ This will launch the **Gradio dashboard** in your browser.
 ## Project Structure
 ```
 📂 semantic-book-recommender
-├── 📄 app.py                 # Main application script
+├── 📄 gradio-dashboard.py                 # Main application script
 ├── 📄 books_with_emotions.csv # Dataset with book details & emotions
 ├── 📄 tagged_description.txt  # Preprocessed book descriptions
 ├── 📄 requirements.txt       # Python dependencies
